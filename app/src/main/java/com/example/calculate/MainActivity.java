@@ -99,7 +99,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
         ///// adding functions of number buttons /////
+	
 
         btn_1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -210,7 +213,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //////  button functions finish //////
+
+        ////// Number button functions finish //////
 
 
 
@@ -226,6 +230,7 @@ public class MainActivity extends AppCompatActivity {
 
 
        ////// adding functions of extra buttons //////
+
 
          btn_back.setOnClickListener(new View.OnClickListener() {
              @Override
@@ -280,7 +285,9 @@ public class MainActivity extends AppCompatActivity {
                   }
               }
           });
+         
 
+	  ////// Eaxtra Button Function Finish //////
 
 
 
@@ -356,7 +363,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        ////// equal //////
+        ////// Adding Equal Button Functions //////
 
 
         btn_equal.setOnClickListener(new View.OnClickListener() {
@@ -402,6 +409,10 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+         
+	////// Equal Button Funtion Finish //////
+
 
 
 
